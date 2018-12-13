@@ -15,6 +15,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.ocultar {
+  display: none;
+}
+
 a {
   color: #50d8af;
   transition: 0.5s;
