@@ -10,8 +10,8 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
-  color: #444;
+  background: #550062;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 a {
-  color: #50d8af;
+  color: #ef007e;
   transition: 0.5s;
 }
 
@@ -54,7 +54,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #50d8af;
+  background: #ef007e;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -65,13 +65,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #50d8af;
+  background: #ef007e;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #0c2e8a;
+  background: #fff;
   color: #fff;
 }
 
@@ -92,11 +92,11 @@ h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #topbar .contact-info i {
-  color: #50d8af;
+  color: #ef007e;
   padding: 4px;
 }
 
@@ -115,7 +115,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #topbar .social-links a:first-child {
@@ -145,13 +145,13 @@ h6 {
 }
 
 #header #logo h1 a {
-  color: #0c2e8a;
+  color: #ff8700;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #header #logo img {
@@ -199,14 +199,14 @@ h6 {
 }
 
 #intro .intro-content h2 {
-  color: #0c2e8a;
+  color: #550062;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-  color: #50d8af;
+  color: #ef007e;
   text-decoration: underline;
 }
 
@@ -225,23 +225,23 @@ h6 {
 }
 
 #intro .intro-content .btn-get-started {
-  background: #0c2e8a;
-  border: 2px solid #0c2e8a;
+  background: #550062;
+  border: 2px solid #550062;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: #0c2e8a;
+  color: #fff;
 }
 
 #intro .intro-content .btn-projects {
-  background: #50d8af;
-  border: 2px solid #50d8af;
+  background: #ef007e;
+  border: 2px solid #ef007e;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #intro #intro-carousel {
@@ -355,7 +355,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu .menu-active > a {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 .nav-menu > li {
@@ -383,7 +383,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 .nav-menu ul ul {
@@ -466,11 +466,11 @@ h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #mobile-body-overly {
@@ -511,7 +511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: #0c2e8a;
+  color: #ef007e;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -524,7 +524,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #50d8af;
+  background: #ef007e;
   bottom: 0;
   left: 0;
 }
@@ -551,14 +551,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: #0c2e8a;
+  color: #fff;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
 }
 
 #about .content h3 {
-  color: #555;
+  color: #fff;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -576,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #about .content ul {
@@ -593,6 +593,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services {
   padding: 30px 0 0 0;
+}
+
+#services .description {
+  color: #550062;
 }
 
 #services .box {
@@ -623,8 +627,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: #0c2e8a;
-  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background: #fff;
+  background: linear-gradient(45deg, #ef007e 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -682,7 +686,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #ef007e;
 }
 
 /* Our Portfolio Section
@@ -816,7 +820,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #50d8af;
+  background-color: #ef007e;
 }
 
 /* Call To Action Section
@@ -853,8 +857,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #50d8af;
-  border: 3px solid #50d8af;
+  background: #ef007e;
+  border: 3px solid #ef007e;
 }
 
 /* Our Team Section
@@ -880,7 +884,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #50d8af;
+  background: #ef007e;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -927,7 +931,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #contact .contact-info address,
@@ -949,7 +953,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #50d8af;
+  color: #ef007e;
 }
 
 #contact .contact-address,
@@ -964,8 +968,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #50d8af;
-  border: 1px solid #50d8af;
+  color: #ef007e;
+  border: 1px solid #ef007e;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1006,7 +1010,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #50d8af;
+  background: #ef007e;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1041,7 +1045,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-  color: #0c2e8a;
+  color: #fff;
 }
 
 @media (min-width: 768px) {
